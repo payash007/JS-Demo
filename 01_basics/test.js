@@ -83,12 +83,31 @@ console.log(1+2+"2");
 let x = 3;
 const y = x++;
 
-console.log(`x:${x}, y:${y}`);
+//console.log(`x:${x}, y:${y}`);
 // Expected output: "x:4, y:3"
 
 let a = 3;
 const b = ++a;
 
-console.log(`a:${a}, b:${b}`);
+//console.log(`a:${a}, b:${b}`);
 // Expected output: "a:4, b:4"
+
+// always compare values having same datatype
+
+//Comparisons convert null to a number, treating it as 0 that's why null >=0 gives true, null>0 is false
+
+//=== checks datatype also
+
+console.log(null>0)//false
+console.log(null<0)//false
+console.log(null>=0)//>= or <= usko 0 mai convert kr deta that's whay gives true
+console.log(null<=0)
+
+console.log(null==undefined)//true
+console.log(null>undefined)//false
+
+console.log(undefined==0)
+console.log(undefined>0)
+console.log(undefined<0)
+console.log(undefined>=0)
 

@@ -60,3 +60,5 @@ console.log(typeof varInNumber2)
 /*Converting a empty string to boolean will give false
   Converting a non empty string to boolean will give true */
 
+// ***********************Operations*************************//
+

@@ -19,7 +19,7 @@ console.log(anotherId)
 
 console.log(id==anotherId)
 
-//Symbol represents a unique value that can be uused as identifiers or keys in object
+//Symbol represents a unique value that can be used as identifiers or keys in object
 //datatype of null is a object
 const heros=["spiderman","batman","superman"] //array
 let myObj={
@@ -36,3 +36,30 @@ const myFunction=function(){
 //datatype of a function is a function object
 
 //non primitive datatype is a object
+
+
+//**********************************
+
+let userOne={
+    email: "payash.agarwal@gmail.com",
+    upi: "user@ybl"
+}
+
+
+let userTwo=userOne
+
+userTwo.email="user@google.com"
+
+console.log(userOne)
+console.log(userTwo)
+
+let x=4
+let y=x
+y=5
+console.log(x)
+console.log(y)
+
+
+// for primitive datatypes value is stored in stack memory in which we get the copy
+
+// for non primitive it is stored in heap memory and we get a reference of original value
